@@ -34,6 +34,8 @@ header .background {
   position: absolute;
   z-index: -100;
   filter: brightness(0.7) sepia(0.1);
+  object-fit: cover;
+  object-position: 0 35%;
 }
 /* Navigation */
 
@@ -43,6 +45,7 @@ nav h1 {
   align-items: center;
   justify-content: center;
   line-height: 2.2vh;
+  margin-right: 5vh;
 }
 nav {
   width: 88%;
@@ -75,10 +78,10 @@ nav a {
 nav .container-button {
   display: flex;
   justify-content: space-between;
-  height: 100%;
   width: 8vh;
   min-width: 8vh;
   max-width: 8vh;
+  margin-right: -6vh;
 }
 nav button {
   font-size: 2vh;
